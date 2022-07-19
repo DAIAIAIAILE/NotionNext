@@ -2,10 +2,10 @@
 const BLOG = {
   AUTHOR: 'DAILE', // 作者
   BIO: '在校的纯fw', // 作者简介
-  LINK: 'https://swamp-chauffeur-37d.notion.site/77594326489f4bba9cdd5104238fd2b7?v=b6484197152f482caef2019a371e7f3f', // 网站地址
+  LINK: 'https://swamp-chauffeur-37d.notion.site/916e76aa7bc6421b86fca024fdb0e0fd?v=7f692d2b325942068f3d93e4ff8d7f37', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || '77594326489f4bba9cdd5104238fd2b7', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  process.env.NOTION_PAGE_ID || '916e76aa7bc6421b86fca024fdb0e0fd', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
